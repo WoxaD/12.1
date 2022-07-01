@@ -10,7 +10,7 @@ public class FilmsManager {
         this.limit = limit;
     }
 
-    public void add(String movie) {
+    public void save(String movie) {
         String[] tmp = new String[films.length + 1];
         System.arraycopy(films, 0, tmp, 0, films.length);
         tmp[tmp.length - 1] = movie;
